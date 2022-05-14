@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+h1 {
+    font-family: Arial;
+    text-align: justify;
+    font-size: 20px;
+}
+p {
+    font-family: Arial;
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 150px;
+    border-right-width: 150px;
+}
+.titulo {
+    background-color: rgb(255, 8, 8);
+    color: black;
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: arial;
+    background-color: rgb(202, 5, 5);
+    font-size: 30px;;
+}
+nav ul {
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover {
+    cursor: pointer;
+    color: white;
+    border-bottom: 2px solid black;
+}
